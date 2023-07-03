@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6943FF;
+    color: #FFFFFF;
+}
+
+.main-title {
+    margin-bottom: 30px;
+}
+
+.input-txt {
+    background-color: #6943FF;
+    color: #FFFFFF;
+    border: 1px solid #B295FF;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    width: 90px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+
+.input-txt:focus {
+    outline: none;
+}
+
+#convert-btn {
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.below-section {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+}
+
+.card {
+    background-color: #273549;
+    padding: 15px 80px;
+    margin-top: 30px;
+}
+
+.card-title {
+    color: #CCC1FF;
+}
+
+.paragraph {
+    color: #FFFFFF;
+}
